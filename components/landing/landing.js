@@ -13,7 +13,7 @@ export default function Landing() {
       </div>
       <div className={styles.rightContainer}>
         <div className={styles.right}>
-          <p className={styles.subtitle}>I develop beautiful websites.</p>
+          <p className={styles.semititle}>I develop beautiful<br />websites.</p>
         </div>
       </div>
     </div>

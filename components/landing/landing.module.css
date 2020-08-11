@@ -3,17 +3,26 @@
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
+  /* justify-content: space-between; */
   flex-direction: column;
   padding: 2em;
 }
 .left {
-  margin-top: 120px;
+  margin-top: 80px;
   max-width: 700px;
+  line-height: 1;
 }
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Halant', sans-serif;
   font-size: 120px;
 }
+
+.semititle {
+  font-size: 55px;
+  font-family: 'Halant', sans-serif;
+  letter-spacing: 3px;
+}
+
 .subtitle {
   opacity: 0.6;
   font-size: 35px;
@@ -23,8 +32,9 @@
 .rightContainer{
   display: flex;
   justify-content: flex-end;
+  text-align: right;
 }
 .right {
   align-items: flex-end;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
