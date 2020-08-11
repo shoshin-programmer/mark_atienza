@@ -1,9 +1,11 @@
+// Components
+import Container from "../container.js";
 // Assets
 import styles from "./landing.module.css";
 
 export default function Landing() {
   return (
-    <div className={styles.container}>
+    <Container>
       <div className={styles.left}>
         <span className={styles.title}>Mark</span>
         <br />
@@ -13,9 +15,13 @@ export default function Landing() {
       </div>
       <div className={styles.rightContainer}>
         <div className={styles.right}>
-          <p className={styles.semititle}>I develop beautiful<br />websites.</p>
+          <p className={styles.semititle}>
+            I develop beautiful
+            <br />
+            websites.
+          </p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }

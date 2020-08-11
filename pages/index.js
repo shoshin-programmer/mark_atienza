@@ -6,6 +6,7 @@ import Head from "next/head";
 import Background from "../components/background/bg.js";
 import Content from "../components/content.js";
 import Landing from "../components/landing/landing.js";
+import About from "../components/about/about.js";
 
 // Assets
 
@@ -17,8 +18,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Background />
-        <Content>
-          <Landing />
+      <Content>
+        <Landing />
+        <About />
       </Content>
     </React.Fragment>
   );
