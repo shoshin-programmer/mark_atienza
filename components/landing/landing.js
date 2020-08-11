@@ -1,0 +1,21 @@
+// Assets
+import styles from "./landing.module.css";
+
+export default function Landing() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.left}>
+        <span className={styles.title}>Mark</span>
+        <br />
+        <span className={styles.title}>Atienza</span>
+        <br />
+        <span className={styles.subtitle}>Fullstack web developer</span>
+      </div>
+      <div className={styles.rightContainer}>
+        <div className={styles.right}>
+          <p className={styles.subtitle}>I develop beautiful websites.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
