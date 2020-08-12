@@ -6,11 +6,15 @@ import styles from "./work.module.css";
 export default function Work() {
   return (
     <Container>
-      <div className={styles.aboutContainer}>
-        <div className={styles.header}>about.</div>
+      <div className={styles.workContainer}>
+        <div className={styles.header}>work.</div>
         <div className={styles.contain}>
-          <div className={styles.text}>
-            I create minimalist websites that is focused for the users.
+          <div className={styles.mainText}>
+            RingCentral
+            <br />
+            <div className={styles.text}>[ Python Developer ]</div>
+            <br />
+            <div className={styles.description}>Internal HR system using Python, Django, React. Designing and deploying for users.</div>
           </div>
         </div>
       </div>
