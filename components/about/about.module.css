@@ -23,4 +23,6 @@
   color: #ffffff;
   font-size: 40px;
   letter-spacing: 3px;
+  max-width: 900px;
+  text-align: center;
 }
