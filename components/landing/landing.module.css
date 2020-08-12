@@ -1,23 +1,24 @@
 .left {
   margin-top: 80px;
   max-width: 700px;
-  line-height: 1;
+  line-height: 1.1;
 }
 .title {
-  font-family: 'Halant', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
   font-size: 120px;
 }
 
 .semititle {
   font-size: 55px;
-  font-family: 'Halant', sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 3px;
 }
 
 .subtitle {
   opacity: 0.6;
   font-size: 35px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .rightContainer{
