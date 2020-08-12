@@ -1,0 +1,26 @@
+.aboutContainer {
+  position: relative;
+}
+.header{
+  text-align: center;
+  opacity: 0.6;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+.contain {
+  z-index: 2;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
