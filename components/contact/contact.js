@@ -7,7 +7,6 @@ export default function Contact() {
   return (
     <Container>
       <div className={styles.contactContainer}>
-        <div className={styles.header}>contact.</div>
         <div className={styles.contain}>
           <div className={styles.text}>
             <a href="mailto:atienza.new@gmail.com">

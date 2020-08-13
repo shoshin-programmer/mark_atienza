@@ -1,12 +1,6 @@
 .contactContainer {
   position: relative;
 }
-.header{
-  text-align: center;
-  opacity: 0.6;
-  font-size: 70px;
-  letter-spacing: 2px;
-}
 .contain {
   z-index: 2;
   position: absolute;
