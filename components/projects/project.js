@@ -6,9 +6,12 @@ import styles from "./project.module.css";
 export default function Project() {
   return (
     <div className={styles.projectContainer}>
-      <div className={styles.bgImgWrap}>
-        <img src="/work_bg.png" className={styles.bgImg} />
-      </div>
+      <a href="https://github.com/shoshin-programmer" target="_blank">
+        <button className={styles.github}>
+          View More on Github
+        </button>
+      </a>
+      <img src="/work_bg.png" className={styles.bgImg} />
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <p className={styles.title}>Latest Work</p>
