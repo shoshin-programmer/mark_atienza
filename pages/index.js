@@ -10,6 +10,7 @@ import About from "../components/about/about.js";
 import Work from "../components/work/work.js";
 import Project from "../components/projects/project.js";
 import Contact from "../components/contact/contact.js";
+import Header from "../components/header/header.js";
 
 // Assets
 
@@ -21,6 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Background />
+      <Header />
       <Content>
         <Landing />
         <About />

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;600&family=Roboto:wght@300&display=swap');
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   background: #000000;

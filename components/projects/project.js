@@ -5,7 +5,7 @@ import styles from "./project.module.css";
 
 export default function Project() {
   return (
-    <div className={styles.projectContainer}>
+    <div className={styles.projectContainer} id="projects">
       <a href="https://github.com/shoshin-programmer" target="_blank">
         <button className={styles.github}>
           View More on Github
