@@ -8,6 +8,7 @@ import Content from "../components/content.js";
 import Landing from "../components/landing/landing.js";
 import About from "../components/about/about.js";
 import Work from "../components/work/work.js";
+import Project from "../components/projects/project.js";
 
 // Assets
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Landing />
         <About />
         <Work />
+        <Project />
       </Content>
     </React.Fragment>
   );
