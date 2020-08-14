@@ -14,7 +14,7 @@ export default function Project() {
       <img src="/work_bg.png" className={styles.bgImg} />
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
-          <p className={styles.title}>Latest Work</p>
+          <p className={styles.title}>Latest Work.</p>
           <div className={styles.showcaseWrap}>
             <img src="/former_portfolio.png" className={styles.showcase} />
           </div>
