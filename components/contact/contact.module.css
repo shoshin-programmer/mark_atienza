@@ -10,7 +10,6 @@
   left: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .text {
   font-family: 'Nunito', sans-serif;
@@ -19,6 +18,7 @@
   letter-spacing: 3px;
   max-width: 900px;
   text-align: center;
+  margin-top: 230px;
 }
 .contact {
   letter-spacing: 6px;
@@ -38,4 +38,11 @@
   background: rgba(0, 0, 0, 0.6);
   border: 1px solid #ccc;
   transition: ease-in-out 0.7s;
+}
+.header{
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 55px;
+  letter-spacing: 2px;
 }
