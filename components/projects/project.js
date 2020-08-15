@@ -11,7 +11,7 @@ export default function Project() {
           View More on Github
         </button>
       </a>
-      <img src="/work_bg.png" className={styles.bgImg} />
+      {/* <img src="/work_bg.png" className={styles.bgImg} /> */}
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <p className={styles.title}>Latest Work.</p>

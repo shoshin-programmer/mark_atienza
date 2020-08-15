@@ -1,9 +1,10 @@
 .container {
   color: #fff;
-  min-height: 110vh;
+  height: 900px;
   min-width: 100%;
   display: flex;
   /* justify-content: space-between; */
   flex-direction: column;
   padding: 2em;
+  overflow: hidden;
 }
