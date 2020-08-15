@@ -5,27 +5,30 @@ import Container from "../container.js";
 import styles from "./header.module.css";
 
 export default function Header() {
-  const [scrolled, setScrolled] = React.useState(false);
+  const [visible, setVisibility] = React.useState(true);
+  const [prevScrollpos, setPrevScrollpos] = React.useState(
+    typeof window !== "undefined" ? window.pageYOffset : ""
+  );
 
   const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 200) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
+    const prevScrollposition = prevScrollpos;
+
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollposition > currentScrollPos;
+
+    setPrevScrollpos(currentScrollPos);
+    setVisibility(visible);
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-  });
-  // let navbarClasses = ["navbar"];
-  // if (scrolled) {
-  //   navbarClasses.push("scrolled");
-  // }
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
 
   return (
-    <div className={`${styles.headerWrapper} ${scrolled ? styles.scrolled : ""}`}>
+    <div
+      className={`${styles.headerWrapper} ${visible ? "" : styles.scrolled}`}
+    >
       <div className={styles.header}>
         <ul className={styles.list}>
           <a href="#about">
