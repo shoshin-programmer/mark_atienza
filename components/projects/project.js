@@ -8,27 +8,26 @@ import styles from "./project.module.css";
 export default function Project() {
   return (
     <div className={styles.projectContainer} id="projects">
-      <Fade bottom cascade>
-        <a href="https://github.com/shoshin-programmer" target="_blank">
-          <button className={styles.github}>View More on Github</button>
-        </a>
-      </Fade>
-      {/* <img src="/work_bg.png" className={styles.bgImg} /> */}
       <div className={styles.contentWrapper}>
-        <Fade bottom cascade>
-          <div className={styles.content}>
-            <p className={styles.title}>Latest Work.</p>
-            <div className={styles.showcaseWrap}>
+        <div className={styles.content}>
+          <p className={styles.title}>Latest Work.</p>
+          <div className={styles.showcaseWrap}>
+            <Fade bottom cascade>
               <img src="/former_portfolio.png" className={styles.showcase} />
-            </div>
+            </Fade>
+          </div>
+          <Fade bottom cascade>
             <div className={styles.textWrap}>
               <p className={styles.text}>
                 Former Portfolio with blog, created using ReactJs, Django,
                 Django Rest Framework.
               </p>
             </div>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
+        <a href="https://github.com/shoshin-programmer" target="_blank">
+          <button className={styles.github}>View More on Github</button>
+        </a>
       </div>
     </div>
   );
