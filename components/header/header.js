@@ -40,6 +40,9 @@ export default function Header() {
           <a href="#projects">
             <li className={styles.listItem}>projects.</li>
           </a>
+          <a href="#contact">
+            <li className={styles.listItem}>contact.</li>
+          </a>
         </ul>
       </div>
     </div>
