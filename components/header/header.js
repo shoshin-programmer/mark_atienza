@@ -28,10 +28,8 @@ export default function Header() {
   }, [handleScroll]);
 
   return (
-    <div
-      className={`${styles.headerWrapper} ${visible ? "" : styles.scrolled}`}
-    >
-      <div className={styles.header}>
+    <div className={styles.headerWrapper}>
+      <div className={`${visible ? styles.header : styles.scrolled}`}>
         <Fade cascade top>
           <ul className={styles.list}>
             <a href="#about">
