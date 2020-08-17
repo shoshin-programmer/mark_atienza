@@ -1,7 +1,7 @@
 .container {
   color: #fff;
   height: 900px;
-  min-width: 100%;
+  width: 100%;
   display: flex;
   /* justify-content: space-between; */
   flex-direction: column;
