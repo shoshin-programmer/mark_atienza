@@ -22,7 +22,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -36,8 +36,8 @@ export default function Home() {
       ) : (
         <Fade>
           <Background />
-          <Header />
           <Content>
+            <Header />
             <Landing />
             <About />
             <Work />

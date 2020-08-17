@@ -1,6 +1,7 @@
 .headerWrapper{
-  z-index: 3;
+  z-index: 9;
   position: fixed;
+  top: 0;
   height: 80px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
