@@ -31,21 +31,16 @@ export default function Home() {
         <title>Mark Atienza</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {loading ? (
-        <FullLoader />
-      ) : (
-        <Fade>
-          <Background />
-          <Content>
-            <Header />
-            <Landing />
-            <About />
-            <Work />
-            <Project />
-            <Contact />
-          </Content>
-        </Fade>
-      )}
+      <FullLoader />
+      <Content>
+        <Background />
+        <Header />
+        <Landing />
+        <About />
+        <Work />
+        <Project />
+        <Contact />
+      </Content>
     </React.Fragment>
   );
 }
