@@ -9,7 +9,7 @@ export default function Landing() {
   return (
     <Container>
       <div className={styles.left}>
-        <Fade bottom cascade delay={800}>
+        <Fade bottom cascade delay={4500}>
           <span className={styles.title}>Mark</span>
           <br />
           <span className={styles.title}>Atienza</span>
@@ -18,7 +18,7 @@ export default function Landing() {
         </Fade>
       </div>
       <div className={styles.rightContainer}>
-        <Fade bottom cascade delay={1300}>
+        <Fade bottom cascade delay={4900}>
           <div className={styles.right}>
             <p className={styles.semititle}>
               I develop beautiful
