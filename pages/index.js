@@ -1,5 +1,6 @@
 // Dependencies
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
+import Fade from "react-reveal/Fade";
 import Head from "next/head";
 
 // Components
@@ -11,25 +12,40 @@ import Work from "../components/work/work.js";
 import Project from "../components/projects/project.js";
 import Contact from "../components/contact/contact.js";
 import Header from "../components/header/header.js";
+import FullLoader from "../components/loaders/full_loader.js";
 
 // Assets
 
 export default function Home() {
+  const [loading, setLoading] = React.useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <React.Fragment>
       <Head>
         <title>Mark Atienza</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Background />
-      <Header />
-      <Content>
-        <Landing />
-        <About />
-        <Work />
-        <Project />
-        <Contact />
-      </Content>
+      {loading ? (
+        <FullLoader />
+      ) : (
+        <Fade>
+          <Background />
+          <Content>
+            <Header />
+            <Landing />
+            <About />
+            <Work />
+            <Project />
+            <Contact />
+          </Content>
+        </Fade>
+      )}
     </React.Fragment>
   );
 }
