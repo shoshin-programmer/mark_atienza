@@ -14,7 +14,7 @@ export default function Landing() {
           <div className={styles.contain}>
             <div className={styles.content}>
               <Fade bottom cascade delay={5300}>
-                <p className={styles.subtitle}>[ fullstack developer ]</p>
+                <p className={styles.subtitle}>fullstack developer</p>
                 <p className={styles.text}>
                   I am a fullstack developer based on Taguig City Philippines. I
                   create beautiful websites, efficient internal systems and
