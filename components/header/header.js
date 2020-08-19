@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <div className={styles.headerWrapper}>
       <div className={`${visible ? styles.header : styles.scrolled}`}>
-        <Fade cascade top delay={4000} duration={1300}>
+        <Fade cascade top delay={4200} duration={1300}>
           <ul className={styles.list}>
             <a href="#about">
               <li className={styles.listItem}>about.</li>
