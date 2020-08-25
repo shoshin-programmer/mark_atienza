@@ -8,9 +8,9 @@ import styles from "./about.module.css";
 export default function About() {
   return (
     <Container>
-      <div className={styles.aboutContainer} id="about">
+      <div className={styles.aboutContainer}>
         <Fade bottom cascade>
-          <div className={styles.header}>about.</div>
+          <div className={styles.header} id="about">about.</div>
           <div className={styles.contain}>
             <div className={styles.text}>
               I create minimalist websites that is focused for the users.
