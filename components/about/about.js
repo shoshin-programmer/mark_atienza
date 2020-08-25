@@ -10,10 +10,19 @@ export default function About() {
     <Container>
       <div className={styles.aboutContainer}>
         <Fade bottom cascade>
-          <div className={styles.header} id="about">about.</div>
+          <div className={styles.header} id="about">
+            about.
+          </div>
           <div className={styles.contain}>
             <div className={styles.text}>
-              I create minimalist websites that is focused for the users.
+              Hello! I'm Arvin Mark Atienza!
+              <br />
+              <br />
+              I'm fullstack developer based on Taguig City Philippines. I create
+              beautiful websites for professionals, efficient websites for
+              internal systems, and other things on the web. My goal is to make
+              beautiful and websites that are user-centered that provides
+              efficient and delightful experiences for the users.
             </div>
           </div>
         </Fade>

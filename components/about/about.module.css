@@ -16,12 +16,13 @@
   left: 0;
   display: flex;
   justify-content: center;
+  transform: translateY(-100px);
 }
 .text {
-  font-family: 'Nunito', sans-serif;
   color: #ffffff;
-  font-size: 30px;
-  letter-spacing: 3px;
+  font-size: 25px;
   max-width: 900px;
-  text-align: center;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-family: 'Nunito', sans-serif;
 }
