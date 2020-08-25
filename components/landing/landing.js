@@ -8,7 +8,7 @@ import styles from "./landing.module.css";
 export default function Landing() {
   return (
     <Container>
-      <div className={styles.aboutContainer}>
+      <div className={styles.container}>
         <Fade bottom cascade delay={5000}>
           <div className={styles.header}>mark atienza.</div>
           <div className={styles.contain}>
