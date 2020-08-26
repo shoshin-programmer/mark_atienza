@@ -17,15 +17,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .mainText {
-  font-size: 55px;
+  font-size: 45px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   letter-spacing: 5px;
+  transition: ease-in-out 0.5s;
 }
 .text {
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 3px;
   text-align: center;
 }
@@ -34,4 +36,63 @@
   font-size: 30px;
   letter-spacing: 3px;
   max-width: 800px;
+}
+.arrow {
+  border: solid #cccccc;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 20px;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+.arrow:hover {
+  border: solid #ffffff;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.arrowRight {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  right: 250px;
+}
+
+.arrowLeft {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  left: 250px;
+}
+.arrowRight:hover, .arrowLeft:hover {
+  transition: ease-in-out 0.3s;
+  padding: 25px;
+}
+
+.fadeOut {
+  animation: fade-out .3s ease-in-out forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation: fade-in .3s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
