@@ -31,6 +31,7 @@ export default function Header() {
     <div className={styles.headerWrapper}>
       <div className={`${visible ? styles.header : styles.scrolled}`}>
         <Fade cascade top delay={4200} duration={1300}>
+          <img src="/logo.png" className={styles.logo} />
           <ul className={styles.list}>
             <a href="#about">
               <li className={styles.listItem}>about.</li>
