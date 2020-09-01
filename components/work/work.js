@@ -87,7 +87,7 @@ export default function Work() {
 
           {index !== datas.length - 1 ? (
             <i
-              class={`${styles.arrowRight} ${styles.arrow}`}
+              className={`${styles.arrowRight} ${styles.arrow}`}
               onClick={() => handleChange("add")}
             ></i>
           ) : (
