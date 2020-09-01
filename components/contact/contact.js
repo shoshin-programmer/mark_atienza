@@ -20,6 +20,14 @@ export default function Contact() {
                 I'll be happy to talk about projects and network for future
                 endeavours.
               </p>
+              <div className={styles.socialLinks}>
+                <a href="https://github.com/shoshin-programmer">
+                  <img src="/github.svg" className={styles.link} />
+                </a>
+                <a href="https://www.linkedin.com/in/arvin-mark-atienza-687851143/">
+                  <img src="/linkedin.svg" className={styles.link} />
+                </a>
+              </div>
             </div>
           </div>
         </Fade>
