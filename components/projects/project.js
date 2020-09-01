@@ -13,7 +13,9 @@ export default function Project() {
           <p className={styles.title}>Latest Work.</p>
           <div className={styles.showcaseWrap}>
             <Fade bottom cascade>
-              <img src="/former_portfolio.png" className={styles.showcase} />
+              <a href="https://github.com/shoshin-programmer/blog_v1" target="_blank">
+                <img src="/former_portfolio.png" className={styles.showcase} />
+              </a>
             </Fade>
           </div>
           <Fade bottom cascade>
