@@ -15,11 +15,13 @@ export default function Landing() {
             <div className={styles.content}>
               <Fade bottom cascade delay={5300}>
                 <p className={styles.subtitle}>fullstack developer</p>
-                <p className={styles.text}>
+                <div className={styles.text}>
+                <p>
                   I am a fullstack developer based on Taguig City Philippines. I
                   create beautiful websites, efficient internal systems and
                   other things web.
                 </p>
+                </div>
               </Fade>
               <a href="mailto:atienza.new@gmail.com">
                 <button className={styles.contact}>CONTACT ME</button>
