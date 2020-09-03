@@ -21,10 +21,10 @@ export default function Contact() {
                 endeavours.
               </p>
               <div className={styles.socialLinks}>
-                <a href="https://github.com/shoshin-programmer">
+                <a href="https://github.com/shoshin-programmer" target="_blank">
                   <img src="/github.svg" className={styles.link} />
                 </a>
-                <a href="https://www.linkedin.com/in/arvin-mark-atienza-687851143/">
+                <a href="https://www.linkedin.com/in/arvin-mark-atienza-687851143/" target="_blank">
                   <img src="/linkedin.svg" className={styles.link} />
                 </a>
               </div>

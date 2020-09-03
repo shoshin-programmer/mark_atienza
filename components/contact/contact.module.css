@@ -49,4 +49,12 @@
 }
 .link {
   margin: 20px;
+  filter: invert(0.5);
+  -webkit-filter: invert(0.5);
+  transition: ease-in-out 0.3s;
+}
+.link:hover {
+  filter: invert(0);
+  -webkit-filter: invert(0);
+  transition: ease-in-out 0.3s;
 }
