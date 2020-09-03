@@ -2,7 +2,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 // Components
-import Container from "../container.js";
+import Container from "../../container.js";
 // Assets
 import styles from "./work.module.css";
 

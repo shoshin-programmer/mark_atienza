@@ -59,7 +59,7 @@
   animation: fade-out 3.5s ease-in-out forwards;
 }
 .box::before {
-  content: url("../../public/a-text.svg");
+  content: url("../../../public/a-text.svg");
   height: 100%;
   width: 100%;
   display: flex;

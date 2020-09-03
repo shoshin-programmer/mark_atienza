@@ -1,30 +1,21 @@
 // Dependencies
-import React, { Component, useEffect } from "react";
-import Fade from "react-reveal/Fade";
+import React from "react";
 import Head from "next/head";
 
 // Components
-import Background from "../components/background/bg.js";
+import Background from "../components/portfolio/background/bg.js";
 import Content from "../components/content.js";
-import Landing from "../components/landing/landing.js";
-import About from "../components/about/about.js";
-import Work from "../components/work/work.js";
-import Project from "../components/projects/project.js";
-import Contact from "../components/contact/contact.js";
-import Header from "../components/header/header.js";
-import FullLoader from "../components/loaders/full_loader.js";
+import Landing from "../components/portfolio/landing/landing.js";
+import About from "../components/portfolio/about/about.js";
+import Work from "../components/portfolio/work/work.js";
+import Project from "../components/portfolio/projects/project.js";
+import Contact from "../components/portfolio/contact/contact.js";
+import Header from "../components/portfolio/header/header.js";
+import FullLoader from "../components/portfolio/loaders/full_loader.js";
 
 // Assets
 
 export default function Home() {
-  const [loading, setLoading] = React.useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
   return (
     <React.Fragment>
       <Head>
