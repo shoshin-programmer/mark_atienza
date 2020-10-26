@@ -85,3 +85,21 @@
   border-radius: 5px;
   padding: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .projectContainer {
+    height: 800px;
+  }
+  .showcase {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+  .content {
+    height: 600px;
+  }
+}

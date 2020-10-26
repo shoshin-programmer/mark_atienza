@@ -10,7 +10,7 @@ export default function Project() {
     <div className={styles.projectContainer} id="projects">
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
-          <p className={styles.title}>Latest Work.</p>
+          <p className="sectionTitle">Latest Work.</p>
           <div className={styles.showcaseWrap}>
             <Fade bottom cascade>
               <a href="https://github.com/shoshin-programmer/blog_v1" target="_blank">
