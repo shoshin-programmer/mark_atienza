@@ -20,9 +20,10 @@ export default function About() {
               <br />
               I'm fullstack developer based on Taguig City Philippines. I create
               beautiful websites for professionals, efficient websites for
-              internal systems, and other things on the web. My goal is to make
+              internal systems, and other things on the web.
+              {/* My goal is to make
               beautiful and websites that are user-centered that provides
-              efficient and delightful experiences for the users.
+              efficient and delightful experiences for the users. */}
             </div>
           </div>
         </Fade>
