@@ -10,7 +10,7 @@ export default function Contact() {
     <Container>
       <div className={styles.contactContainer} id="contact">
         <Fade bottom cascade>
-          <div className={styles.header}>contact.</div>
+          <div className="sectionTitle">contact.</div>
           <div className={styles.contain}>
             <div className={styles.text}>
               <a href="mailto:atienza.new@gmail.com">
