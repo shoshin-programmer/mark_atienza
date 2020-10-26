@@ -9,8 +9,7 @@ export default function About() {
   return (
     <Container>
       <div className={styles.aboutContainer}>
-        <Fade bottom cascade>
-          <div className={styles.header} id="about">
+          <div className="sectionTitle" id="about">
             about.
           </div>
           <div className={styles.contain}>
@@ -26,7 +25,6 @@ export default function About() {
               efficient and delightful experiences for the users. */}
             </div>
           </div>
-        </Fade>
       </div>
     </Container>
   );

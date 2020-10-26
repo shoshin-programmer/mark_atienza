@@ -1,13 +1,6 @@
 .aboutContainer {
   position: relative;
 }
-.header{
-  text-align: center;
-  opacity: 0.6;
-  font-size: 55px;
-  letter-spacing: 2px;
-  color: #ccc;
-}
 .contain {
   z-index: 2;
   position: absolute;
@@ -29,9 +22,6 @@
 }
 
 @media only screen and (min-width: 0) {
-  .header {
-    font-size: 3em;
-  }
   .text {
     font-size: 18px;
     text-align: center;

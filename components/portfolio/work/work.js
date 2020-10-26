@@ -50,7 +50,7 @@ export default function Work() {
   return (
     <Container>
       <div className={styles.workContainer} id="work">
-        <div className={styles.header}>work.</div>
+        <div className="sectionTitle">work.</div>
         <div className={styles.contain}>
           <div
             className={`${styles.mainText} ${
