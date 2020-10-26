@@ -20,14 +20,13 @@ a {
   box-sizing: border-box;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-  html::before {
+  /* html::before {
     content: "Not yet implemented for smaller screens.";
     font-size: 5em;
     color: #ffffff;
   }
   body {
     display: none;
-  }
+  } */
 }
