@@ -10,7 +10,7 @@ export default function Landing() {
     <Container>
       <div className={styles.container}>
         <Fade bottom cascade delay={5000}>
-          <div className={styles.header}>mark atienza.</div>
+          <div className={styles.header}><p>mark atienza.</p></div>
           <div className={styles.contain}>
             <div className={styles.content}>
               <Fade bottom cascade delay={5300}>
