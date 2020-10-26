@@ -54,3 +54,9 @@
   transform: translateY(-100%);
   transition: ease-in-out 0.7s;
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    overflow: scroll;
+  }
+}
