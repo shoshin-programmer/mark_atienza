@@ -21,6 +21,7 @@ export default function Home() {
       <Head>
         <title>Mark Atienza</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="/landing.png" />
       </Head>
       <FullLoader />
       <Content>
